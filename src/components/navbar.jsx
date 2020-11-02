@@ -4,7 +4,7 @@ const NavBar=(props)=>{
   return (
     <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        You have {props.length} items
+        <h3>NavBar </h3> You have {props.length} items
       </a>
     </nav>
   );
